@@ -32,7 +32,7 @@
         "y": 200,
         "wires": [
             [
-                "0d9b29b8da4b9257"
+                "b98dd1745fd0d2fc"
             ]
         ]
     },
@@ -51,5 +51,25 @@
         "x": 560,
         "y": 200,
         "wires": []
+    },
+    {
+        "id": "b98dd1745fd0d2fc",
+        "type": "function",
+        "z": "ecfde4cca1100151",
+        "name": "function 1",
+        "func": "var date = new Date();\nmsg.payload = date;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 280,
+        "wires": [
+            [
+                "0d9b29b8da4b9257"
+            ]
+        ]
     }
 ]
