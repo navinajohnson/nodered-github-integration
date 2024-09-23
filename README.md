@@ -1,0 +1,9 @@
+node-red-gitlab-integration
+===========================
+
+This is an example project to see how the node-red and gitlab integration functions
+
+### About
+
+This is your project's README.md file. It helps users understand what your
+project does, how to use it and anything else they may need to know.

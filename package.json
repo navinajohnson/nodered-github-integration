@@ -1,0 +1,12 @@
+{
+    "name": "node-red-gitlab-integration",
+    "description": "This is an example project to see how the node-red and gitlab integration functions",
+    "version": "0.0.1",
+    "dependencies": {},
+    "node-red": {
+        "settings": {
+            "flowFile": "flows.json",
+            "credentialsFile": "flows_cred.json"
+        }
+    }
+}
